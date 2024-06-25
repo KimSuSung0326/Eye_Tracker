@@ -87,8 +87,8 @@ cv2.createTrackbar('threshold', 'image', 0, 255, nothing)
 
 
 #firebase 설정
-cred = credentials.Certificate('pa1data-firebase-adminsdk-kkea6-213c5cf049.json')
-firebase_admin.initialize_app(cred,{'databaseURL' : 'https://pa1data-default-rtdb.firebaseio.com/'})
+cred = credentials.Certificate('')
+firebase_admin.initialize_app(cred,{''})
 mouse_x = 1920/2
 mouse_y = 1080/2
 while(True):
